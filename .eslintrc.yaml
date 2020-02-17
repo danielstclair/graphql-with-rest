@@ -1,0 +1,20 @@
+---
+  extends:
+    - eslint:recommended
+    - prettier
+  plugins:
+    - prettier
+  env:
+    es6: true
+    node: true
+    browser: true
+    jest: true
+  globals:
+    mount: true
+    shallow: true
+    enableDeepSnapshots: true
+    ruleHelpers: true
+  rules:
+    prettier/prettier: error
+    no-console: 1
+
