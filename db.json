@@ -1,0 +1,253 @@
+{
+  "bands": [
+    {
+      "id": 1,
+      "name": "The Beatles"
+    },
+    {
+      "id": 2,
+      "name": "Traveling Wilburys"
+    },
+    {
+      "id": 3,
+      "name": "Tom Petty and The Heartbreakers"
+    },
+    {
+      "id": 4
+    }
+  ],
+  "artists": [
+    {
+      "id": 1,
+      "name": "Roy Orbison"
+    },
+    {
+      "id": 2,
+      "name": "Tom Petty"
+    },
+    {
+      "id": 3,
+      "name": "Jeff Lynn"
+    },
+    {
+      "id": 4,
+      "name": "George Harrison"
+    },
+    {
+      "id": 5,
+      "name": "Bob Dylan"
+    },
+    {
+      "id": 6,
+      "name": "John Lennon"
+    },
+    {
+      "id": 7,
+      "name": "Ringo Starr"
+    },
+    {
+      "id": 8,
+      "name": "Paul McCartney"
+    }
+  ],
+  "bandMembers": [
+    {
+      "bandId": 1,
+      "artistId": 4
+    },
+    {
+      "bandId": 1,
+      "artistId": 6
+    },
+    {
+      "bandId": 1,
+      "artistId": 7
+    },
+    {
+      "bandId": 1,
+      "artistId": 8
+    },
+    {
+      "bandId": 2,
+      "artistId": 1
+    },
+    {
+      "bandId": 2,
+      "artistId": 2
+    },
+    {
+      "bandId": 2,
+      "artistId": 3
+    },
+    {
+      "bandId": 2,
+      "artistId": 4
+    },
+    {
+      "bandId": 2,
+      "artistId": 5
+    },
+    {
+      "bandId": 3,
+      "artistId": 2
+    }
+  ],
+  "genres": [
+    {
+      "id": 1,
+      "name": "rock"
+    },
+    {
+      "id": 2,
+      "name": "folk"
+    },
+    {
+      "id": 3,
+      "name": "pop"
+    }
+  ],
+  "albums": [
+    {
+      "id": 1,
+      "title": "Sgt. Peppers",
+      "bandId": 1,
+      "genreId": 1
+    },
+    {
+      "id": 2,
+      "title": "Abbey Road",
+      "bandId": 1,
+      "genreId": 1
+    },
+    {
+      "id": 3,
+      "title": "Beatles 65",
+      "bandId": 1,
+      "genreId": 3
+    },
+    {
+      "id": 4,
+      "title": "Revolver",
+      "bandId": 1,
+      "genreId": 2
+    },
+    {
+      "id": 5,
+      "title": "Traveling Wilburys",
+      "bandId": 2,
+      "genreId": 3
+    },
+    {
+      "id": 6,
+      "title": "Damn the Torpedoes",
+      "bandId": 3,
+      "genreId": 3
+    },
+    {
+      "id": 7,
+      "title": "Long After Dark",
+      "bandId": 3,
+      "genreId": 1
+    }
+  ],
+  "instruments": [
+    {
+      "id": 1,
+      "name": "guitar"
+    },
+    {
+      "id": 2,
+      "name": "bass"
+    },
+    {
+      "id": 3,
+      "name": "drums"
+    },
+    {
+      "id": 4,
+      "name": "piano"
+    },
+    {
+      "id": 5,
+      "name": "vocals"
+    }
+  ],
+  "artistInstruments": [
+    {
+      "instrumentId": 1,
+      "artistId": 1
+    },
+    {
+      "instrumentId": 5,
+      "artistId": 1
+    },
+    {
+      "instrumentId": 1,
+      "artistId": 2
+    },
+    {
+      "instrumentId": 5,
+      "artistId": 2
+    },
+    {
+      "instrumentId": 5,
+      "artistId": 3
+    },
+    {
+      "instrumentId": 1,
+      "artistId": 3
+    },
+    {
+      "instrumentId": 5,
+      "artistId": 4
+    },
+    {
+      "instrumentId": 1,
+      "artistId": 4
+    },
+    {
+      "instrumentId": 5,
+      "artistId": 5
+    },
+    {
+      "instrumentId": 1,
+      "artistId": 5
+    },
+    {
+      "instrumentId": 5,
+      "artistId": 6
+    },
+    {
+      "instrumentId": 1,
+      "artistId": 6
+    },
+    {
+      "instrumentId": 5,
+      "artistId": 7
+    },
+    {
+      "instrumentId": 3,
+      "artistId": 7
+    },
+    {
+      "instrumentId": 5,
+      "artistId": 8
+    },
+    {
+      "instrumentId": 4,
+      "artistId": 8
+    },
+    {
+      "instrumentId": 3,
+      "artistId": 8
+    },
+    {
+      "instrumentId": 2,
+      "artistId": 8
+    },
+    {
+      "instrumentId": 1,
+      "artistId": 8
+    }
+  ]
+}
