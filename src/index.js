@@ -8,6 +8,7 @@ const server = new ApolloServer(schema);
 const options = { port: 5000 };
 
 server.applyMiddleware({ app });
+
 app.listen(options, () => {
   // eslint-disable-next-line
   console.log(`Server ready. Go to ${server.graphqlPath}`);
