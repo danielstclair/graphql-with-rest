@@ -1,0 +1,7 @@
+type Band implements BaseType {
+  id: ID!
+  name: String!
+  members: [Artist]
+  albums: [Album]
+}
+

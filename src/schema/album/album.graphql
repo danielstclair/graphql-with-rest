@@ -1,0 +1,7 @@
+type Album {
+  id: ID!
+  title: String!
+  band: Band
+  genre: String!
+}
+

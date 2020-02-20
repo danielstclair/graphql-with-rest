@@ -1,0 +1,7 @@
+type Artist implements BaseType {
+  id: ID!
+  name: String!
+  bands: [Band]
+  instruments: [Instrument]
+}
+

@@ -1,3 +1,24 @@
+# import * from 'band/band.graphql'
+# import * from 'artist/artist.graphql'
+# import * from 'album/album.graphql'
+
+interface BaseType {
+  id: ID!
+  name: String!
+}
+
+type Instrument implements BaseType {
+  id: ID!
+  name: String!
+}
+
+input IdNameSearch {
+  id: ID
+  name: String
+}
+
 type Query {
-  count: Int
+  bands(input: IdNameSearch): [Band]
+  artists(input: IdNameSearch): [Artist]
+  albums: [Album]
 }
