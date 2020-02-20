@@ -13,3 +13,4 @@ Starting the api will run two processes:
 
 ## Flow Chart
 [Take a look at different flow chart options](https://drive.google.com/file/d/1q4lQyCDznP0jJme3gJpEUeU4yue1LZbZ/view?usp=sharing)
+[Database design we will be working with is here](https://drive.google.com/file/d/1sxAHd5BTMj1c9FIVtv7wQGuMHUhJIqHI/view?usp=sharing)
